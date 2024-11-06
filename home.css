@@ -1,0 +1,94 @@
+#counteudo {
+    margin-top: auto;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0 20px;
+}
+
+.card {
+    height: 290px; 
+    width: 100%; 
+    overflow: hidden;
+    position: relative;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.card:hover .card-img-top {
+    transform: scale(1.1);
+}
+
+.card:hover {
+    border-color: rgb(5, 26, 255);
+}
+
+.navbar-brand {
+    height: 50px;
+}
+
+.navbar-nav .nav-link {
+    display: flex;
+    align-items: center;
+}
+
+footer {
+    height: 100px;
+    font-size: larger;
+}
+
+.img-fluid {
+    height: 50px;
+}
+
+
+#ppac_icon {
+    height: 60px;
+}
+
+@media screen and (max-width: 992px) {
+    .card {
+        width: 150px;
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .card {
+        width: 130px;
+        height: 150px;
+    }
+}
+
+a {
+    height: 100%;
+}
+
+@media screen and (max-width: 576px) {
+    .card {
+            margin-top: 50px;
+            width: 80px;
+            height: 100px;
+    }
+
+    span {
+        font-size: small;
+    }
+
+    .img-fluid {
+        height: 45px;
+        width: 40px;
+    }   
+
+    #ppac_icon {
+        height: 47px;
+    }
+
+    h5 {
+        font-size: medium;
+    }
+}
