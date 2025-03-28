@@ -1,5 +1,5 @@
 body {
-    background-image: url('imagens/nuvems.png');
+    background-image: url('imagens/iapen_oficial.jpg');
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -45,18 +45,16 @@ body {
 }
 
 footer {
-    background-color: rgba(0, 0, 0, 0.863);
+    background-color: rgba(0, 0, 0, 0.639);
     height: 100px;
     font-size: larger;
     backdrop-filter: blur(15px);
-    border-top: solid 1px rgb(192, 192, 192);
     color: white;
 }
 
 nav {
-    background-color: rgba(0, 0, 0, 0.863);
+    background-color: rgba(0, 0, 0, 0.639);
     backdrop-filter: blur(15px);
-    border-bottom: solid 1px rgb(192, 192, 192);
 }
 
 span {
