@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(to right, #193666, #000a33);
+    background: linear-gradient(to right, #2f63b7, #000a33e7);
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -45,7 +45,7 @@ body {
 }
 
 footer {
-    background-color: rgba(0, 0, 0, 0.639);
+    background-color: rgba(0, 0, 0, 0.783);
     height: 100px;
     font-size: larger;
     backdrop-filter: blur(15px);
@@ -53,7 +53,7 @@ footer {
 }
 
 nav {
-    background-color: rgba(0, 0, 0, 0.639);
+    background-color: rgba(0, 0, 0, 0.783);
     backdrop-filter: blur(15px);
 }
 
